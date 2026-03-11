@@ -10,9 +10,28 @@ SQL database analyzing COVID-19 vaccination rates and health outcomes across 200
 - Tables: vaccinations, covid-data
 
 ## Key Findings
-- Analyzed vaccination rollout across 200+ countries
-- Identified correlation between vaccination rates and case trends
-- Top vaccinated countries achieve >70% population coverage
+
+### Global Vaccination Coverage
+- Analyzed vaccination data across 235 countries and territories through August 2024
+- Global total: 47.98 billion vaccine doses administered worldwide
+- India led in absolute numbers with 999.5 million people vaccinated, followed by Japan (999.8 million) and Morocco (999.4 million)
+
+### Vaccination Rates by Population
+- 9 countries achieved >80% population vaccination coverage
+- United Arab Emirates achieved highest rate at 105.83% (includes boosters counting as additional vaccinations)
+- Portugal (95.62%), Cuba (89.05%), and Tuvalu (86.13%) achieved strong population-wide coverage
+- Small island nations showed particularly high vaccination uptake rates
+
+### Case Fatality Analysis
+- Case fatality rates among countries with >100,000 cases ranged from 2.7% to 4.88%
+- Peru showed highest CFR at 4.88%, followed by Egypt (4.81%) and Mexico (4.39%)
+- Lower-income countries generally showed higher CFRs, likely reflecting healthcare system capacity constraints
+- Average CFR among high-case countries: approximately 3.5%
+
+### Data Quality
+- 41.34% of vaccination records contained complete people_vaccinated data
+- 196,246 total vaccination records analyzed across all countries and time periods
+- Missing data primarily concentrated in early pandemic periods and lower-resource countries
 
 ## SQL Skills Demonstrated
 - Multi-table JOINs
